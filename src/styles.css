@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darksalmon;
+    padding: 0px;
+    margin:  0px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100lvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-image: linear-gradient(to right top, #03132c, #00285c, #003c90, #0050c7, #0064ff);
+ }
+
+ div {
+    padding: 5px;
+    margin:  5px;
+ }
+
+ a {
+   color: darksalmon;
+   text-decoration: none;
+ }

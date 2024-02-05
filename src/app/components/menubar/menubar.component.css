@@ -1,0 +1,12 @@
+.menubar__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menubar__logo {
+    margin-left: 20px;
+}
+
+.menubar__menu {
+    margin-left: 60px;
+}
