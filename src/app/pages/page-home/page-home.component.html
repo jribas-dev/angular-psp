@@ -1,14 +1,27 @@
 <div class="pagehome__container">
     <div class="pagehome__feature">
         <div *ngFor="let feature of featureProducts">
-            <p>{{feature.name}}</p>
+            <app-card 
+                [cardUrlImage]="feature.urlImage" 
+                [cardTags]="feature.tags"
+                [cardTitle]="feature.name"
+                [cardDiscount]="feature.discount"
+                [cardPrice]="feature.price"
+                [cardIdProd]="feature.id"
+            ></app-card>
         </div>
     </div>
     <div class="pagehome__notfeat">
         <div *ngFor="let notfeat of notfeatProducts">
-            <p>{{notfeat.name}}</p>
+            <app-card 
+                [cardUrlImage]="notfeat.urlImage" 
+                [cardTags]="notfeat.tags"
+                [cardTitle]="notfeat.name"
+                [cardDiscount]="notfeat.discount"
+                [cardPrice]="notfeat.price"
+                [cardIdProd]="notfeat.id"
+            ></app-card>
         </div>
     </div>
-    <p>page-home works!</p>
-    <a [routerLink]="('product')">>>> PRODUTO</a>
 </div>
+<app-footerbar></app-footerbar>

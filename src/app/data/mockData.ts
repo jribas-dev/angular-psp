@@ -48,7 +48,7 @@ export const mockProducts = [
             "Seis skins de armas (antecipado)",
         ],
         "callAction": "EDIÇÃO PREMIUM",
-        "urlImage": "https://image.api.playstation.com/vulcan/ap/rnd/202308/1722/dd78d0c35970e997c162b13f20d6a66f24afad1b4c47a482.png?w=440&thumb=false",
+        "urlImage": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0719/AiDJh36mDhq9TU1j5lcdJfSZ.png?w=440&thumb=false",
         "urlBckgrd": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0719/yOCVLjinZ17BVrZwL0z1a6HV.png?w=1920&thumb=false",
         "feature": true,
         "tags": ["PS5"],

@@ -1,3 +1,25 @@
-<div>
-    <p>card works!</p>
+<div class="card__container">
+    <div class="card__image__container">
+        <a [routerLink]="['product', cardIdProd]">
+            <div class="card__image">
+                <img [src]=[cardUrlImage] alt="ImageCover">
+            </div>
+        </a>
+        <div class="card__tags__container">
+            <div class="card__tags" *ngFor="let tag of cardTags">
+                <span>{{tag}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="card__details__container">
+        <div class="card__title">{{cardTitle}}</div>
+        <div class="card__discount">{{cardDiscount + '% off'}}</div>
+        <div class="card__price__container">
+            <div id="oldPrice">{{'R$ ' + cardPrice}}</div>
+            <div id="newPrice">{{'R$ ' + cardSellPrice}}</div>
+            <div class="card__button__icon">
+                <a [routerLink]="['product', cardIdProd]"><i class="fas fa-info-circle"></i></a>
+            </div>
+        </div>
+    </div>
 </div>

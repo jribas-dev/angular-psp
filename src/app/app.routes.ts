@@ -6,6 +6,6 @@ export const routes: Routes = [{
     path: '',
     component: PageHomeComponent
 },{
-    path: 'product',
+    path: 'product/:id',
     component: PageProductComponent
 }];
