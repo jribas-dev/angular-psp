@@ -1,4 +1,14 @@
 <div class="pagehome__container">
+    <div class="pagehome__feature">
+        <div *ngFor="let feature of featureProducts">
+            <p>{{feature.name}}</p>
+        </div>
+    </div>
+    <div class="pagehome__notfeat">
+        <div *ngFor="let notfeat of notfeatProducts">
+            <p>{{notfeat.name}}</p>
+        </div>
+    </div>
     <p>page-home works!</p>
     <a [routerLink]="('product')">>>> PRODUTO</a>
 </div>

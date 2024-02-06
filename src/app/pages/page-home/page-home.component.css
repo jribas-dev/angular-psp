@@ -1,3 +1,17 @@
 .pagehome__container {
-    margin-left: 40px;
+    border: 2px solid black;
+}
+
+.pagehome__feature {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagehome__notfeat {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
